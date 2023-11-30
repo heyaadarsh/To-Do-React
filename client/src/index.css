@@ -1,0 +1,131 @@
+body{
+  width: 50%;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(36, 30, 36);
+}
+
+
+
+header{
+  text-align: center;
+  /* margin-top: 20px; */
+}
+
+header h1{
+  font-size: 80px;
+  font-weight: 500;
+  color: white;
+}
+
+input{
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid white;
+  background-color:rgb(36, 30, 36);
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.input_holder{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* .list{
+  margin-top: 50px;
+} */
+
+#ToDoH1{
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.input_holder button{
+  outline: none;
+  padding: 7px 15px;
+  font-weight: bold;
+}
+
+.ToDo{
+  background: rgba(255, 255, 255, 0.833);
+  padding: 15px 0 15px 15px;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 20px;
+  align-items: flex-end;
+  /* z-index: 1; */
+}
+
+.icons{
+  margin-left: 30px;
+  display: flex;
+  align-items: flex-end;
+  align-content: space-around;
+  flex-direction: row;
+}
+
+
+.popup{
+  /* position: absolute; */
+
+  margin: auto;
+  background-color: white;
+  width: 50%;
+  margin-top: -100px;
+  padding: 50px 15px 50px 15px;
+  border-radius: 10px;
+  /* text-align: right; */
+  /* z-index: 100; */
+}
+
+.popup h1{
+  text-align: center;
+  margin-top: -30px;
+  font-size: 26px;
+  font-family: Poppins, sans-serif;
+}
+
+.icon{
+  /* position: absolute;
+  right: 420px;
+  margin-top: 10px;  */
+  margin-right: 5px;
+}
+
+.cross-icon{
+  position: absolute;
+  right: 590px;
+  margin-top: -25px;
+}
+
+.updateInput{
+  width: 80%;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background-color: white;
+  color: black;
+  padding: 10px;
+  font-weight: 500;
+  /* margin-top: 20px; */
+}
+
+.input_popup_holder{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.input_popup_holder button{
+  outline: none;
+  padding: 7px 15px;
+  font-weight: bold;
+  margin-left: 5px;
+}
