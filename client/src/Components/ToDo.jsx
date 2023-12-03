@@ -24,7 +24,7 @@ const ToDo = ({text, id, setUpdateUI, setShowPopup, setPopupContent}) => {
             <div className='ToDo'>
                 {text}
                 <div className='icons'>
-                    <AiFillEdit className='icon' onClick={setShowPopup} />
+                    {/* <AiFillEdit className='icon' onClick={setShowPopup} /> */}
                     <RxCross1 className='icon' onClick={deleteToDo} />
                 </div>
             </div>
