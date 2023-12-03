@@ -36,11 +36,11 @@ function App() {
       <main>
         <div>
           <header className='text-center mt-10'>
-            <h1 className='text-7xl text-white pt-4 font-medium mb-10'>TASK MANAGER</h1>
+            <h1 className='text-white text-3xl pt-4 font-medium mb-10 sm:text-5xl'>TASK MANAGER</h1>
           </header>
         </div>
         <div className='input_holder flex justify-evenly mt-8' >
-          <input value={input} onChange={(e) => {setInput(e.target.value)}} type='text' placeholder='Add Your Task Here' className='w-4/5 outline-none border-b-2 border-blue-50 bg-slate-600 text-white p-3 font-medium'></input>
+          <input value={input} onChange={(e) => {setInput(e.target.value)}} type='text' placeholder='Add Your Task Here' className='w-full outline-none border-b-2 border-blue-50 bg-slate-600 text-white p-3 font-medium mr-2 rounded text-sm'></input>
           <button onClick={saveToDo} className='outline-none py-2 px-4 font-bold bg-white rounded'>ADD</button>
         </div>
         <h1 id='ToDoH1' className='mt-12 text-3xl font-light text-white border-b-2 border-blue-50'>Tasks</h1>
