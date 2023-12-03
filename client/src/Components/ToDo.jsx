@@ -21,9 +21,9 @@ const ToDo = ({text, id, setUpdateUI, setShowPopup, setPopupContent}) => {
 
     return (
         <>
-            <div className='ToDo'>
-                {text}
-                <div className='icons'>
+            <div className='ToDo bg-slate-300 mt-5 px-4 py-2 rounded flex items-center m-auto content-between'>
+                <div>{text}</div>
+                <div className='icons ml-8 cursor-pointer'>
                     {/* <AiFillEdit className='icon' onClick={setShowPopup} /> */}
                     <RxCross1 className='icon' onClick={deleteToDo} />
                 </div>

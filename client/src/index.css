@@ -1,4 +1,8 @@
-body{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body{
   width: 50%;
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
@@ -9,7 +13,6 @@ body{
 
 header{
   text-align: center;
-  /* margin-top: 20px; */
 }
 
 header h1{
@@ -34,10 +37,6 @@ input{
   justify-content: space-evenly;
 }
 
-/* .list{
-  margin-top: 50px;
-} */
-
 #ToDoH1{
   margin-top: 50px;
   font-size: 30px;
@@ -60,7 +59,6 @@ input{
   display: flex;
   margin-top: 20px;
   align-items: flex-end;
-  /* z-index: 1; */
 }
 
 .icons{
@@ -73,7 +71,6 @@ input{
 
 
 .popup{
-  /* position: absolute; */
 
   margin: auto;
   background-color: white;
@@ -81,8 +78,6 @@ input{
   margin-top: -100px;
   padding: 50px 15px 50px 15px;
   border-radius: 10px;
-  /* text-align: right; */
-  /* z-index: 100; */
 }
 
 .popup h1{
@@ -93,9 +88,6 @@ input{
 }
 
 .icon{
-  /* position: absolute;
-  right: 420px;
-  margin-top: 10px;  */
   margin-right: 5px;
 }
 
@@ -114,7 +106,6 @@ input{
   color: black;
   padding: 10px;
   font-weight: 500;
-  /* margin-top: 20px; */
 }
 
 .input_popup_holder{
@@ -128,4 +119,5 @@ input{
   padding: 7px 15px;
   font-weight: bold;
   margin-left: 5px;
-}
+} */
+

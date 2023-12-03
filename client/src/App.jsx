@@ -35,15 +35,15 @@ function App() {
     <>
       <main>
         <div>
-          <header>
-            <h1>Task Manager</h1>
+          <header className='text-center mt-10'>
+            <h1 className='text-7xl text-white pt-4 font-medium mb-10'>TASK MANAGER</h1>
           </header>
         </div>
-        <div className='input_holder'>
-          <input value={input} onChange={(e) => {setInput(e.target.value)}} type='text' placeholder='Add Your Task Here'></input>
-          <button onClick={saveToDo}>ADD</button>
+        <div className='input_holder flex justify-evenly mt-8' >
+          <input value={input} onChange={(e) => {setInput(e.target.value)}} type='text' placeholder='Add Your Task Here' className='w-4/5 outline-none border-b-2 border-blue-50 bg-slate-600 text-white p-3 font-medium'></input>
+          <button onClick={saveToDo} className='outline-none py-2 px-4 font-bold bg-white rounded'>ADD</button>
         </div>
-        <h1 id='ToDoH1'>Tasks</h1>
+        <h1 id='ToDoH1' className='mt-12 text-3xl font-light text-white border-b-2 border-blue-50'>Tasks</h1>
         <div className='list'>
           {toDos.map(el => <ToDo key={el._id} text={el.toDo} id={el._id} setUpdateUI={setUpdateUI} setShowPopup={setShowPopup} />)}
         </div>
